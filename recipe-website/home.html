@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- css -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="nav-header">
+      <div class="nav-container">
+        <!--  navigation bar container-->
+
+        <div class="logo-button-container">
+          <!-- logo and button container-->
+          <!-- logo container-->
+          <a href="home.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="logo" />
+          </a>
+          <!-- end of logo container-->
+          <!--  button container -->
+          <button type="button" class="nav-rightBtn" id="nav-rightBtn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+          <!-- end of button container-->
+        </div>
+        <!--  end of logo and button container -->
+
+        <!--  links container-->
+        <div class="links-container" id="links-container">
+          <a href="home.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <a href="contact.html" class="nav-link contact-link">
+            <div class="contact-linkBtn">contact</div>
+          </a>
+        </div>
+        <!-- end of links container-->
+      </div>
+      <!-- end of navigation bar container-->
+    </header>
+
+    <main class="page">
+      <!--  simply recipe section-->
+      <section class="simple-logo">
+        <!-- simple logo container -->
+        <div class="simple-logo-container">
+          <div class="simple-shadow">
+            <!-- simple- shadow -->
+            <div class="simple-text">
+              <!-- simple text -->
+              <h1>Simply Recipes</h1>
+              <p>No Fluff, Just Recipes</p>
+            </div>
+          </div>
+          <!-- simple- shadow-->
+        </div>
+        <!-- end of simple logo container-->
+      </section>
+      <!-- end of simply recipe section-->
+
+      <!-- recipes page -->
+      <section class="recipes-page">
+        <div class="recipes-container">
+          <!-- recipes container foods-->
+
+          <a href="#" class="recipe">
+            <img src="./assets/recipes/recipe-1.jpeg" alt="" />
+            <h5>Carne Asada</h5>
+            <p>Prep : 15min | Cook 5mins</p>
+          </a>
+
+          <a href="#" class="recipe">
+            <img src="./assets/recipes/recipe-2.jpeg" alt="" />
+            <h5>Greek Ribs</h5>
+            <p>Prep : 15min | Cook 5mins</p>
+          </a>
+
+          <a href="#" class="recipe">
+            <img src="./assets/recipes/recipe-3.jpeg" alt="" />
+            <h5>Vegetable Soup</h5>
+            <p>Prep : 15min | Cook 5mins</p>
+          </a>
+
+          <a href="#" class="recipe">
+            <img src="./assets/recipes/recipe-4.jpeg" alt="" />
+            <h5>Banana Panacakes</h5>
+            <p>Prep : 15mins | Cook 5mins</p>
+          </a>
+        </div>
+        <!-- end of recipes container  foods-->
+
+        <div class="recipes-menu">
+          <!-- recipes menu-->
+          <!--<header class="menu-title">Recipes</header>-->
+          <h3>Recipes</h3>
+          <div class="recipes-list">
+            <a href="recipes.html">Beef (1)</a>
+            <a href="recipes.html">Breakfast (2)</a>
+            <a href="recipes.html">Carrots (3)</a>
+            <a href="recipes.html">Food (4)</a>
+          </div>
+        </div>
+        <!--end of recipes menu-->
+      </section>
+      <!-- end of recipes page -->
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer class="page-footer">
+      <p>
+        &copy;2025 <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="">Coding Addict</a>
+      </p>
+    </footer>
+  </body>
+</html>

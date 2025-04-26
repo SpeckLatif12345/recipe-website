@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- css -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="nav-header">
+      <div class="nav-container">
+        <!--  navigation bar container-->
+
+        <div class="logo-button-container">
+          <!-- logo and button container-->
+          <!-- logo container-->
+          <a href="home.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="logo" />
+          </a>
+          <!-- end of logo container-->
+          <!--  button container -->
+          <button type="button" class="nav-rightBtn" id="nav-rightBtn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+          <!-- end of button container-->
+        </div>
+        <!--  end of logo and button container -->
+
+        <!--  links container-->
+        <div class="links-container" id="links-container">
+          <a href="home.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <a href="contact.html" class="nav-link contact-link">
+            <div class="contact-linkBtn">contact</div>
+          </a>
+        </div>
+        <!-- end of links container-->
+      </div>
+      <!-- end of navigation bar container-->
+    </header>
+
+    <body>
+      <main class="page">
+        <section class="contact-container">
+          <!-- contact container-->
+          <div>
+            <h3>Want To get in Touch?</h3>
+            <p>
+              Four dollar toast biodiesel plaid salvia actually pickled banjo
+              bespoke milkshk intelligentsia edison bulb synth.
+            </p>
+            <p>Cardigan prism bicycle rights put a bird on it deep</p>
+            <p>
+              Hashtag swag health goth air plant, raclette listicle fingerstache
+              cold-pressed fanny pack bicycle rights cardigan poke.
+            </p>
+          </div>
+
+          <div>
+            <!-- form  container -->
+            <form class="form contact-form">
+              <div class="form-row">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" />
+              </div>
+
+              <div class="form-row">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="text" id="email" name="email" class="form-input" />
+              </div>
+
+              <div class="form-row">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn submit-button">Submit</button>
+            </form>
+          </div>
+          <!--  end of form container -->
+        </section>
+        <!-- end of  contact container -->
+
+        <section>
+          <div class="recipes-container">
+            <!-- recipes container foods-->
+
+            <a href="#" class="recipe">
+              <img src="./assets/recipes/recipe-1.jpeg" alt="" />
+              <h5>Carne Asada</h5>
+              <p>Prep : 15min | Cook 5mins</p>
+            </a>
+
+            <a href="#" class="recipe">
+              <img src="./assets/recipes/recipe-2.jpeg" alt="" />
+              <h5>Greek Ribs</h5>
+              <p>Prep : 15min | Cook 5mins</p>
+            </a>
+
+            <a href="#" class="recipe">
+              <img src="./assets/recipes/recipe-3.jpeg" alt="" />
+              <h5>Vegetable Soup</h5>
+              <p>Prep : 15min | Cook 5mins</p>
+            </a>
+
+            <a href="#" class="recipe">
+              <img src="./assets/recipes/recipe-4.jpeg" alt="" />
+              <h5>Banana Panacakes</h5>
+              <p>Prep : 15mins | Cook 5mins</p>
+            </a>
+          </div>
+          <!-- end of recipes container  foods-->
+        </section>
+      </main>
+    </body>
+
+    <footer class="page-footer">
+      <p>
+        &copy;2025 <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="">Coding Addict</a>
+      </p>
+    </footer>
+  </body>
+</html>
